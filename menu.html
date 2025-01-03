@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+  	.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+	}
+
+	.menu .box-container .box{
+    padding: 5rem;
+    text-align: center;
+    background-color: var(--main-color);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+	}
+
+	.menu .box-container .box img{
+    height: 10rem;
+	}
+
+	.menu .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+	}
+
+	.menu .box-container .box .price{
+    color: #fff;
+    font-size: 2.5rem;
+    padding: .5rem 0;
+	}
+
+	.menu .box-container .box:hover{
+    background-color: var(--primary-color);
+	}
+
+	.menu .box-container .box:hover > *{
+    color: var(--black);
+	}
+  </style>
+ </head>
+
+ <body>
+	<section class="menu" id="menu">
+
+        <h1 class="heading">menu</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/coffe-1.jpg" alt="">
+                <h3>Black Coffee</h3>
+                <div class="price">&#8377;140</div>
+                <button class="button" onclick="myfunction()"><input type="submit" value="order" class="btn"></button>
+                <script>
+                    function myfunction() {
+                        alert("ordered successfully.....");
+                    }
+                </script>
+                
+            </div>
+
+            <div class="box">
+                <img src="image/coffe-2.jpg" alt="">
+                <h3>Americano</h3>
+                <div class="price">&#8377;180</div>
+                <button class="button" onclick="myfunction()"><input type="submit" value="order" class="btn"></button>
+                <script>
+                    function myfunction() {
+                        alert("ordered successfully.....");
+                    }
+                </script>
+            </div>
+
+            <div class="box">
+                <img src="image/coffe-3.jpg" alt="">
+                <h3>Cappucino</h3>
+                <div class="price">&#8377;170</div>
+                <button class="button" onclick="myfunction()"><input type="submit" value="order" class="btn"></button>
+                <script>
+                    function myfunction() {
+                        alert("ordered successfully.....");
+                    }
+                </script>
+            </div>
+
+            <div class="box">
+                <img src="image/coffe4.jpeg" alt="">
+                <h3>Tornado</h3>
+                <div class="price">&#8377;200</div>
+                <button class="button" onclick="myfunction()"><input type="submit" value="order" class="btn"></button>
+                <script>
+                    function myfunction() {
+                        alert("ordered successfully.....");
+                    }
+                </script>
+            </div>
+
+            <div class="box">
+                <img src="image/coffe-5.jpg" alt="">
+                <h3>French Press Coffee</h3>
+                <div class="price">&#8377;190</div>
+                <button class="button" onclick="myfunction()"><input type="submit" value="order" class="btn"></button>
+                <script>
+                    function myfunction() {
+                        alert("ordered successfully.....");
+                    }
+                </script>
+            </div>
+
+            <div class="box">
+                <img src="image/coffe 6.webp" alt="">
+                <h3>Italy Espresso</h3>
+                <div class="price">&#8377;220</div>
+                <button class="button" onclick="myfunction()"><input type="submit" value="order" class="btn"></button>
+                <script>
+                    function myfunction() {
+                        alert("ordered successfully.....");
+                    }
+                </script>
+            </div>
+
+        </div>
+
+    </section>
+ </body>
+</html>
